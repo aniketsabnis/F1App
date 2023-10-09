@@ -28,4 +28,4 @@ jobs:
       working-directory: ./Drivers.API
     - name: Test
       run: dotnet test --no-build --verbosity normal
-      working-directory: ./Drivers.API
+      working-directory: ./F1App.nUnitTests
