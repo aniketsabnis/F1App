@@ -22,10 +22,10 @@ jobs:
         dotnet-version: 7.0.x
     - name: Restore dependencies
       run: dotnet restore
-      working-directory: ./Drivers.API
+      working-directory: /Drivers.API
     - name: Build
       run: dotnet build --no-restore
-      working-directory: ./Drivers.API
+      working-directory: /Drivers.API
     - name: Test
       run: dotnet test --no-build --verbosity normal
-      working-directory: ./F1App.nUnitTests
+      working-directory: /F1App.nUnitTests
